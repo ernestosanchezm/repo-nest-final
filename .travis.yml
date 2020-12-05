@@ -3,12 +3,12 @@ node_js:
   - '12'
 branches:
   only:
-    - master
+    - main
 deploy:
   provider: heroku
   skip_cleanup: true
   on:
-    branch: master
+    branch: main
   api_key:
     secure: Pm98vuSpU2mkji/hvaEi/f0DHatdHpp4mkwevU7dc3yrl9C1Ku85Bfax+KpU5w7C9cJQsOVM8xW4fpSLj5UMXb98TOY2aP42ihHnzVglO/Ewbq7F06k0lOb3HFYHp5puWEPVy7yC3atYakHD2kS5gbn5jP0zXwQs2iYyPrqU8ETt08G0UVQgDI/2hDI8GfFGkZD9yRySHdunqoUhE5E2DiOjpBHc/fmNrg7P1fq3voCkbMwIYfX5CWisWdnVbQae+bVIpLlYhv6MKRd2NR04tkS8FbRNsrQkMIg4g6bwHyvAlsZbQ0mlzNFP4Qc4hQKZv6CwF6dEg/0SB52yENr7wJRQmEbeTeN9NnRFBvJlNIE5C6r5WQCz/dwwh64iI8kcGAPpL+62QA984QkdK7eVjIxmsmUAOPwIyeSRRuhZd0zXuXfuI3YBIK36eiE0Uty5jZW+iB/uVgAEsFZJfJzLKsd6rRUDD3fR7DXy0VobHcH1FANgcp/gsNBMqs4ZIFiRlFI1lV1G5NX7EEdVpBYmQGxH5bKEzGscRNYFJxyMI6duOxOBhA8hNd9q3SNrEvc97TlnU8/S+pKmJdmTvttoJ4MreH62ohqkEHR0AfW8rkXDprwO+wqa3Pu+xUKlWdIpaMRxc4DnK/fVpLCtaZBbmIks1Zvj9rtcsQMfMn0J70k=
   app: upc-tsw-ef-nest-u201713827
